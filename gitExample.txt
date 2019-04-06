@@ -1,0 +1,16 @@
+
+$ git init
+$ git status
+$ git add ch1.txt
+$ git config --global user.email "atrowley81@gmail.com"
+$ git config --global user.name "ATR"
+$ git commit -m "Complete ch1.txt"
+$ git add .
+$ git commit -m "Complete ch2.txt and ch3.txt"
+$ git log
+$ git diff ch3.txt
+$ git checkout ch3.txt
+$ git remote add origin https://github.com/Kaktai/Story2.git
+$ git push -u origin master
+$ git rm --cached -r .
+$ git clone https://github.com/austinzheng/swift-2048.git
